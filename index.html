@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>CINEFFILO</title>
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
+	<link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
+	<link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Fuentes -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+	<!--Responsiva -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="StyleSheet" href="css/index.css">
+		<script type="text/javascript" src="JS/index.js"></script>
+	</head>
+	
+	<body>
+		<header>
+			<div class="titulo"><h1>CINEFFILO</h1></div>
+			<nav>
+				<ul>
+					<li><a href="h_delcine.html">Historia del cine</a></li>
+					<li><a href="directores.html">Directores</a></li>
+					<li><a href="actores.html">Actores</a></li>
+					<li><a href="peliculas.html">Películas</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section>
+				<article>
+					<img src="imagenes/proyector.png" class="proyector" alt="proyector">
+					<details>
+					<summary>Registrarse</summary>
+						<form action="" method="post">
+							<table>
+								<tr>
+									<td><label>Nombre:</label></td>
+									<td><input type="text" id="nombre" name="nombre" required></td>
+								</tr>
+								<tr>
+									<td><label>Apellidos:</label></td>
+									<td><input type="text" id="apellidos" name="Apellidos" required></td>
+								</tr>
+								<tr>
+									<td><label>Mail:</label></td>
+									<td><input type="email" id="email" name="email" required></td>
+								</tr>
+								<tr>
+									<td><label>País:</label></td>
+									<td>
+										<select name="pais">
+											<option value="Es">España</option>
+											<option value="Por">Portugal</option>
+											<option value="Ale">Alemania</option>
+											<option value="Rus">Rusia</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td><label>Contraseña:</label></td>
+									<td><input type="password" id="passwd" name="password" required></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td><button type="submit" onclick="confirmar()">Enviar</button>
+								</tr>
+							</table>
+						</form>
+					</details>
+					<img src="imagenes/objetoscine.png" class="objetoscine" alt="objetoscine">
+				</article>
+			</section>
+		</main>
+		<footer>
+			
+		</footer>
+	</body>
+</html>
